@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="EvaluacionAgosto2021POO.Clases.Persona">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEgAAAgAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Clases\Persona.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Telefono" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="EvaluacionAgosto2021POO.Clases.Empleado">
+    <Position X="1.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAQAABAAA=</HashCode>
+      <FileName>Clases\Empleado.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Sector" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="EvaluacionAgosto2021POO.Clases.Directivo">
+    <Position X="2" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Clases\Directivo.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Categoria" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="EvaluacionAgosto2021POO.Clases.Cliente">
+    <Position X="6" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Clases\Cliente.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EvaluacionAgosto2021POO.Clases.Proveedor">
+    <Position X="8.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAgAAAAEAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Clases\Proveedor.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="PersonaContacto" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="EvaluacionAgosto2021POO.Clases.Contacto">
+    <Position X="8.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Clases\Contacto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EvaluacionAgosto2021POO.Clases.Telefono">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAAAAAAAAQQBAAAAAAAAAAAAA=</HashCode>
+      <FileName>Clases\Telefono.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="OrigenTelefono" />
+      <Property Name="TipoTelefono" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="EvaluacionAgosto2021POO.Empresa">
+    <Position X="11.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEEAAAAAAAAAAAAAIAAABAAAAABAAAAAAAA=</HashCode>
+      <FileName>Clases\Empresa.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="EvaluacionAgosto2021POO.Enums.Sector">
+    <Position X="0.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAABAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Enums\Sector.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="EvaluacionAgosto2021POO.Enums.Categoria">
+    <Position X="4" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAKAAAAAAAAAAAA=</HashCode>
+      <FileName>Enums\Categoria.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="EvaluacionAgosto2021POO.Enums.OrigenTelefono">
+    <Position X="11.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAIAA=</HashCode>
+      <FileName>Enums\OrigenTelefono.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="EvaluacionAgosto2021POO.Enums.TipoTelefono">
+    <Position X="12" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAEAAAAAAAA=</HashCode>
+      <FileName>Enums\TipoTelefono.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
